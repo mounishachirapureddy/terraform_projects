@@ -13,7 +13,7 @@ variable "vpc_b_cidr" {
 variable "region" {
   description = "AWS region to deploy in"
   type        = string
-  default     = "us-east-1"
+  default     = "eu-north-1"
 }
 
 variable "env" {
